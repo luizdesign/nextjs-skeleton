@@ -1,0 +1,19 @@
+{
+  "eslint.validate": [
+    {
+      "language":"typescriptreact",
+      "autoFix":true
+    },
+    {
+      "language":"typescript",
+      "autoFix":true
+    }
+  ],
+  "editor.formatOnSave": false,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  }
+}

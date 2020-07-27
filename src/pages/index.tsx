@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 type Props = {
-  title: string,
+  title: string;
 };
 
 export default function Home({ title = 'NextJs Skeleton' }: Props) {
@@ -207,5 +207,5 @@ export default function Home({ title = 'NextJs Skeleton' }: Props) {
         }
       `}</style>
     </div>
-  )
+  );
 }
