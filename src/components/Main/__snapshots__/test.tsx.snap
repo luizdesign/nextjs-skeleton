@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Should render the heading 1`] = `
+<main
+  class="styles__Wrapper-sc-1fpvr54-0 ghaTmi"
+>
+  <img
+    alt="Imagem de um átomo e NextJs Skeleton escrito ao lado"
+    class="styles__Logo-sc-1fpvr54-1 iJIHgf"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="styles__Title-sc-1fpvr54-2 kKQKnq"
+  >
+    NextJs Skeleton
+  </h1>
+  <strong
+    class="styles__Description-sc-1fpvr54-3 ixQzoP"
+  >
+    NextJs, Typescript, ReactJs e Styled Components
+  </strong>
+</main>
+`;

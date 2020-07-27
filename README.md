@@ -1,5 +1,5 @@
 # NextJs Skeleton
-Skeleton to start an project using nextJs with typescript.
+Skeleton to start an project using nextJs with typescript, react and styled components.
 
 ## Getting Started
 First, run the development server:
