@@ -1,21 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> Should render the heading 1`] = `
+.c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 15rem;
+}
+
+.c2 {
+  margin: 5px 0 10px;
+  font-size: 3rem;
+}
+
+.c3 {
+  font-size: 1.5rem;
+}
+
 <main
-  class="styles__Wrapper-sc-1fpvr54-0 ghaTmi"
+  class="c0"
 >
   <img
     alt="Imagem de um átomo e NextJs Skeleton escrito ao lado"
-    class="styles__Logo-sc-1fpvr54-1 iJIHgf"
+    class="c1"
     src="/img/logo.svg"
   />
   <h1
-    class="styles__Title-sc-1fpvr54-2 kKQKnq"
+    class="c2"
   >
     NextJs Skeleton
   </h1>
   <strong
-    class="styles__Description-sc-1fpvr54-3 ixQzoP"
+    class="c3"
   >
     NextJs, Typescript, ReactJs e Styled Components
   </strong>
