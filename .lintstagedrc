@@ -1,3 +1,6 @@
 {
-  "src/**/*": "yarn lint --fix"
+  "src/**/*": [
+    "yarn lint --fix",
+    "yarn test --findRelatedTests --bail"
+  ]
 }

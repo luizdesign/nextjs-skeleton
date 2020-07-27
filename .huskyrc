@@ -1,6 +1,7 @@
 {
   "hooks": {
-    "pre-commit": "lint-staged",
-    "pre-push": "yarn test --findRelatedTests --bail"
+    "pre-commit": [
+      "lint-staged"
+    ]
   }
 }
