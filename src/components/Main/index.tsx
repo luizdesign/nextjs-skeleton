@@ -1,15 +1,16 @@
 import * as S from './styles';
 
-const Main = () => (
+const Main = ({
+  title = 'NextJs Skeleton',
+  description = 'NextJs, Typescript, ReactJs e Styled Components',
+}) => (
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"
-      alt="Imagem de um átomo e NextJs Skeleton escrito ao lado"
+      alt={`Imagem de um átomo e ${title} escrito ao lado`}
     />
-    <S.Title>NextJs Skeleton</S.Title>
-    <S.Description>
-      NextJs, Typescript, ReactJs e Styled Components
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 );
 
