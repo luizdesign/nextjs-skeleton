@@ -11,6 +11,7 @@ function App({ Component, pageProps }: AppProps) {
 
         <link rel="shortcut icon" href="/img/logo.svg" />
         <link rel="apple-touch-icon" href="/img/logo.svg" />
+        <link rel="manifest" href="/manifest.json" />
 
         <meta
           name="description"
